@@ -1,7 +1,6 @@
 @import 'libs/vars';
 @import 'libs/functions';
-@import 'libs/mixins';
-@import url('font-awesome.min.css');
+@import 'libs/mixins'; 
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
 /*
@@ -54,7 +53,7 @@
 	html {
 		background-color:		_palette(accent2, bg);
 		background-attachment:	fixed,						fixed;
-		background-image:		url('images/overlay.png'),	url('../../images/bg.jpg');
+		background-image:		url('../images/overlay.png'),	url('../images/bg.jpg');
 		background-position:	top left,					center center;
 		background-repeat:		repeat,						none;
 		background-size:		auto,						cover;
@@ -1036,7 +1035,7 @@
 		.goto-next {
 			@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
 			background-color: _palette(border-bg);
-			background-image: url('images/arrow.svg');
+			background-image: url('../images/arrow.svg');
 			background-position: center center;
 			background-repeat: no-repeat;
 			border-radius: 100%;
